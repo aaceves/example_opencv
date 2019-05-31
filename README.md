@@ -36,9 +36,9 @@ $ rosrun example_opencv show_thisimage
 Este paquete fue preparado por el Dr. Alejandro Aceves-López para que sea más comprensible a los programadores nuevos de ROS.
 
 ## Referencias
-[1] Haowei Zhang, “Configure OpenCV in ROS environment with cv_bridge”, publicado 15 nov 2016, (link)[https://www.youtube.com/watch?v=HqNJbx0uAv0]   
-[2]  Patrick Mihelich, James Bowman, “Vision OpenCV Package”, (link)[http://wiki.ros.org/opencv]   
-[3] Patrick Mihelich, “Image view Package”, consultado en enero 2018, (link)[http://wiki.ros.org/image_view]   
-[4] Patrick Mihelich, James Bowma, “Converting between ROS images and OpenCV images in C++”, (link)[http://wiki.ros.org/cv_bridge/Tutorials]   
-[5] Patrick Mihelich, “Image transport tutorials”, consultado en enero 2018, (link)[http://wiki.ros.org/image_transport/Tutorials/]   
-[6] Patrick Mihelich, James Bowman, “Documentación cv_bridge”, (link) [http://docs.ros.org/jade/api/cv_bridge/html/c++/index.html]   
+1. Haowei Zhang, “Configure OpenCV in ROS environment with cv_bridge”, publicado 15 nov 2016, (link)[https://www.youtube.com/watch?v=HqNJbx0uAv0]   
+2. Patrick Mihelich, and James Bowman, “Vision OpenCV Package”, (link)[http://wiki.ros.org/opencv]   
+3. Patrick Mihelich, “Image view Package”, consultado en enero 2018, (link)[http://wiki.ros.org/image_view]   
+4. Patrick Mihelich, and  James Bowman, “Converting between ROS images and OpenCV images in C++”, (link)[http://wiki.ros.org/cv_bridge/Tutorials]   
+5. Patrick Mihelich, “Image transport tutorials”, consultado en enero 2018, (link)[http://wiki.ros.org/image_transport/Tutorials/]   
+6. Patrick Mihelich, and James Bowman, “Documentación cv_bridge”, (link) [http://docs.ros.org/jade/api/cv_bridge/html/c++/index.html]   
