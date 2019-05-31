@@ -29,7 +29,7 @@ El proceso de compilación debe terminar sin errores.
 En dos Terminales diferentes ejecutar cada una de las siguientes lineas:
 ```
 $ roscore
-$ rosrun example_opencv show_thisimage
+$ rosrun example_opencv showimage <path/file.jpg>
 ```
 
 ## Autores y colaboradores
