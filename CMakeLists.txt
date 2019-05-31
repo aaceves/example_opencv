@@ -13,3 +13,7 @@ include_directories( ${OpenCV_INCLUDE_DIRS}
 add_executable(showimage src/show_thisimage.cpp)
 target_link_libraries(showimage ${catkin_LIBRARIES}
                                 ${OpenCV_LIBRARIES})
+
+add_executable(showcam src/show_webcam.cpp)
+target_link_libraries(showcam ${catkin_LIBRARIES}
+                              ${OpenCV_LIBRARIES})
