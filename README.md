@@ -26,10 +26,11 @@ El proceso de compilación debe terminar sin errores.
 
 ## Ejemplo de ejecución
 
-En dos Terminales diferentes ejecutar cada una de las siguientes lineas:
+En tres Terminales diferentes ejecutar cada una de las siguientes lineas:
 ```
 $ roscore
 $ rosrun example_opencv showimage <path/file.jpg>
+$ rosrun example_opencv showcam
 ```
 
 ## Autores y colaboradores
