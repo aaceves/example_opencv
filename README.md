@@ -9,7 +9,7 @@ Para asegurarse que se tiene un dispositivo de video, ejecutar en una Terminal:
 ```
 $ cheese
 ```
-Deberá de ver la imagen de la cámara instalada. En caso contrario significa que no tiene una cámara de video correctamente instalada. 
+Deberá de ver la imagen de la cámara. En caso contrario significa que no tiene una cámara de video correctamente instalada. 
 
 Para asegurarse que se tiene correctamente instalado OpenCV, ejecutar la siguiente instrucción en una Terminal:
 ```
