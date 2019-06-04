@@ -31,7 +31,7 @@ El proceso de compilación debe terminar sin errores.
 
 ## Ejemplo de ejecución
 
-En tres Terminales diferentes ejecutar cada una de las siguientes lineas:
+En tres Terminales diferentes ejecutar cada una de las siguientes lineas, en donde  `<path/file.jpg>` se sustituye por la dirección y nombre exacto de un archivo de imagen jpg:
 ```
 $ roscore
 $ rosrun example_opencv showimage <path/file.jpg>
@@ -39,12 +39,8 @@ $ rosrun example_opencv showcam
 ```
 
 ## Autores y colaboradores
-Este paquete fue preparado por el Dr. Alejandro Aceves-López para que sea más comprensible a los programadores nuevos de ROS.
+Este paquete fue preparado por el Dr. Alejandro Aceves-López usando las referencias abajo citadas para que sea más comprensible a los programadores nuevos de ROS.
 
 ## Referencias
-1. Haowei Zhang, “Configure OpenCV in ROS environment with cv_bridge”, publicado 15 nov 2016, (link)[https://www.youtube.com/watch?v=HqNJbx0uAv0]   
-2. Patrick Mihelich, and James Bowman, “Vision OpenCV Package”, (link)[http://wiki.ros.org/opencv]   
-3. Patrick Mihelich, “Image view Package”, consultado en enero 2018, (link)[http://wiki.ros.org/image_view]   
-4. Patrick Mihelich, and  James Bowman, “Converting between ROS images and OpenCV images in C++”, (link)[http://wiki.ros.org/cv_bridge/Tutorials]   
-5. Patrick Mihelich, “Image transport tutorials”, consultado en enero 2018, (link)[http://wiki.ros.org/image_transport/Tutorials/]   
-6. Patrick Mihelich, and James Bowman, “Documentación cv_bridge”, (link) [http://docs.ros.org/jade/api/cv_bridge/html/c++/index.html]   
+1. Anónimo, “OpenCV Tutorials version 3.2.0”, publicado el 23 dic 2016, (link)[https://docs.opencv.org/3.2.0/d9/df8/tutorial_root.html]   
+2. Kushal Jaligama, "ROS-OpenCV-Example", 21 Jan 2018 (link)[https://github.com/umigv/ROS-OpenCV-Example]
