@@ -43,5 +43,5 @@ $ rosrun example_opencv showcam
 Este paquete fue preparado por el Dr. Alejandro Aceves-López usando las referencias abajo citadas para que sea más comprensible a los programadores nuevos de ROS.
 
 ## Referencias
-1. Anónimo, “OpenCV Tutorials version 3.2.0”, publicado el 23 dic 2016, (link)[https://docs.opencv.org/3.2.0/d9/df8/tutorial_root.html]   
-2. Kushal Jaligama, "ROS-OpenCV-Example", 21 Jan 2018 (link)[https://github.com/umigv/ROS-OpenCV-Example]
+1. Anónimo, “OpenCV Tutorials version 3.2.0”, publicado el 23 dic 2016, https://docs.opencv.org/3.2.0/d9/df8/tutorial_root.html   
+2. Kushal Jaligama, "ROS-OpenCV-Example", 21 Jan 2018, https://github.com/umigv/ROS-OpenCV-Example   
