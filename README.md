@@ -3,7 +3,7 @@
 ## Descripción general
 Tutorial básico del uso de OpenCV dentro de ROS comentado para que sea más complensible para los programadores que se están iniciando en ROS.
 
-## Proceso de instalación
+## Pre-requisitos
 Se considera que la computadora del usuario ya tiene correctamente instalado ROS, GIT y que ya tiene la carpeta de `catkin_ws` correctamente inicializada.
 Para asegurarse que se tiene un dispositivo de video, ejecutar en una Terminal:
 ```
@@ -19,6 +19,7 @@ Debe responder con la versión de OpenCV. En caso que no tenga instalado OpenCV,
 ```
 sudo apt-get install ros-kinetic-vision-opencv libopencv-dev python-opencv
 ```
+## Proceso de instalación
 En una Terminal ejecutar las siguientes instrucciones:
 ```
 $ cd ~/catkin_ws/src
