@@ -7,13 +7,13 @@ Tutorial básico del uso de OpenCV dentro de ROS comentado para que sea más com
 Se considera que la computadora del usuario ya tiene correctamente instalado ROS, GIT y que ya tiene la carpeta de `catkin_ws` correctamente inicializada.
 Para asegurarse que se tiene un dispositivo de video, ejecutar en una Terminal:
 ```
-$ cheese
+cheese
 ```
 Deberá de ver la imagen de la cámara. En caso contrario significa que no tiene una cámara de video correctamente instalada. 
 
 Para asegurarse que se tiene correctamente instalado OpenCV, ejecutar la siguiente instrucción en una Terminal:
 ```
-$ pkg-config –-modversion opencv
+pkg-config –-modversion opencv
 ```
 Debe responder con la versión de OpenCV. En caso que no tenga instalado OpenCV, ejecutar:
 ```
@@ -22,11 +22,11 @@ sudo apt-get install ros-kinetic-vision-opencv libopencv-dev python-opencv
 ## Proceso de instalación
 En una Terminal ejecutar las siguientes instrucciones:
 ```
-$ cd ~/catkin_ws/src
-$ git clone https://github.com/aaceves/example_opencv.git
-$ cd ~/catkin_ws
-$ catkin build
-$ source devel/setup.bash
+cd ~/catkin_ws/src
+git clone https://github.com/aaceves/example_opencv.git
+cd ~/catkin_ws
+catkin build
+source devel/setup.bash
 ```
 El proceso de compilación debe terminar sin errores.
 
@@ -34,9 +34,9 @@ El proceso de compilación debe terminar sin errores.
 
 En tres Terminales diferentes ejecutar cada una de las siguientes lineas, en donde  `<path/file.jpg>` se sustituye por la dirección y nombre exacto de un archivo de imagen jpg:
 ```
-$ roscore
-$ rosrun example_opencv showimage <path/file.jpg>
-$ rosrun example_opencv showcam
+roscore
+rosrun example_opencv showimage <path/file.jpg>
+rosrun example_opencv showcam
 ```
 
 ## Autores y colaboradores
